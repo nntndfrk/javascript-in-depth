@@ -48,7 +48,7 @@ describe('Область видимости:', () => {
 
                 assert.equal(
                     scopeAsAscii,
-                    ['(global)', '\tprint()', '\t- var name', '\t\tlog()', '\t\t- var name'].join('\n')
+                    ['(global)', '\tprint()', '\t- var name', '\t\tlog()', '\t\t- var output'].join('\n')
                 );
 
                 done();
