@@ -11,5 +11,5 @@ git checkout function_exercises
 Решения упражнений:
 
 ```sh
-git checkout function_exercises_completed
+git checkout functions_exercises_completed
 ```
