@@ -5,7 +5,7 @@
 Упражнения:
 
 ```sh
-git checkout function_exercises
+git checkout functions_exercises
 ```
 
 Решения упражнений:
