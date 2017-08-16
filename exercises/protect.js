@@ -11,12 +11,8 @@
     getSecret(); // undefined
 */
 
-function protect(value, password) {
-    return function (string) {
-        if (string === password) {
-            return value;
-        }
-    };
+function protect() {
+    
 }
 
 module.exports = protect;

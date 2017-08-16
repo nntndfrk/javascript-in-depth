@@ -18,10 +18,8 @@
     printPerson(); // { firstname: 'Brendan', lastname: 'Eich' }
 */
 
-function bind(fn, thisValue, ...bindArgs) {
-    return function(...args) {
-        return fn.call(thisValue, ...bindArgs, ...args);
-    };
+function bind() {
+    
 }
 
 module.exports = bind;

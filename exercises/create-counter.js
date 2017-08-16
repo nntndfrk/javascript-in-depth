@@ -19,10 +19,8 @@
     count(); // 3
 */
 
-function createCounter(start = 0, step = 1) {
-    return function () {
-        return start += step;
-    };
+function createCounter() {
+    
 }
 
 module.exports = createCounter;
