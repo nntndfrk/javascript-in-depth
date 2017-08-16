@@ -1,3 +1,5 @@
+'use strict';
+
 const fs = require('fs');
 const assert = require('assert');
 
@@ -41,10 +43,10 @@ let exercises = [
             {
                 description: '`protect` защищает вызов функции паролем',
                 assertion: protect => {
-                    let protected = protect(42, '123456');
+                    let safe = protect(42, '123456');
 
-                    assert.equal(protected('123456'), 42);
-                    assert.equal(protected(), undefined);
+                    assert.equal(safe('123456'), 42);
+                    assert.equal(safe(), undefined);
                 }
             }
         ]
